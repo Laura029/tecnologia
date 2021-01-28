@@ -1,0 +1,56 @@
+body{
+	background-image: url(fondo2.jpg);
+	background-size: cover;
+}
+
+.tp{
+	position: absolute;
+	top: 2%;
+	left: 20%;
+	font-family: letrat;
+	color: #FFD700;
+	font-weight: bold;
+	font-size: 800%;
+	text-shadow: 2px 5px 5px #0036FF;
+	animation-name: sombra;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.tp2{
+	position: absolute;
+	top: 2%;
+	left: 50%;
+	font-family: letrat;
+	color: #FFD700;
+	font-weight: bold;
+	font-size: 800%;
+	text-shadow: 20px 15px 15px #0036FF;
+	animation-name: sombra;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes sombra{
+	0%{ text-shadow: 20px 15px 15px #D7BDE2 ; }
+	16%{ text-shadow: 20px 15px 15px #FAED27; }
+	32%{ text-shadow: 2px 5px 5px #55FF00; }
+	48%{ text-shadow: 2px 5px 5px #00FFC5; }
+	64%{ text-shadow: 0px 15px 15px #0036FF; }
+	80%{ text-shadow: 0px 15px 15px #4D00FF; }
+	96%{ text-shadow: 2px 5px 5px #F300FF; }
+}
+
+@font-face{
+	font-family: letrat;
+	src: url(letrat.ttf);
+}
+
+.cc{
+	position: absolute;
+	width: 8%;
+	height: 15%;
+	right: 2%;
+	top: 84%;
+
+}

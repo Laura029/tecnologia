@@ -1,0 +1,175 @@
+.c6{
+	background-color: transparent;
+	position: absolute;
+	border-color: #FF0000 ;
+	border-style: solid;
+	border-size:2px;
+	top: 5%;
+	right: 210%;
+	width: 18%;
+	height: 4%;
+	animation-name: boton;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+}
+
+.c6:hover{
+	color: #FD1532;
+	display: block;
+	background-image: url(fondo.jpg);
+	width: 20%;
+	height: 5%;
+}
+
+.c7{
+	background-color: transparent;
+	position: absolute;
+	border-color: #FF0000 ;
+	border-style: solid;
+	border-size:2px;
+	top: 5%;
+	right: 175%;
+	width: 20%;
+	height: 4%;
+	animation-name: boton;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+}
+
+.c7:hover{
+	color: #FD1532;
+	display: block;
+	background-image: url(fondo.jpg);
+	width: 22%;
+	height: 5%;
+	color: #000000;
+}
+
+.c8{
+	background-color: transparent;
+	position: absolute;
+	border-color: #FF0000 ;
+	border-style: solid;
+	border-size:2px;
+	top: 5%;
+	right: 140%;
+	width: 20%;
+	height: 4%;
+	animation-name: boton;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+}
+
+.c8:hover{
+	color: #FD1532;
+	display: block;
+	background-image: url(fondo.jpg);
+	width: 22%;
+	height: 5%;
+}
+
+.c9{
+	background-color: transparent;
+	position: absolute;
+	border-color: #FF0000 ;
+	border-style: solid;
+	border-size:2px;
+	top: 5%;
+	right: 105%;
+	width: 20%;
+	height: 4%;
+	animation-name: boton;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+}
+
+.c9:hover{
+	color: #FD1532;
+	display: block;
+	background-image: url(fondo.jpg);
+	width: 22%;
+	height: 5%;
+}
+@keyframes boton{
+	0%{ border-color: #FD1532; }
+	16%{ border-color: #FAED27; }
+	32%{ border-color: #55FF00; }
+	48%{ border-color: #00FFC5; }
+	64%{ border-color: #0036FF; }
+	80%{ border-color: #4D00FF; }
+	96%{ border-color: #F300FF; }
+}
+
+@font-face{
+	font-family: lll;
+	src: url(lll.ttf);
+}
+
+.l{
+	position: absolute;
+	top:-35%;
+	left: 7%;
+	font-family: lll;
+	font-size: 300%;
+	color: #ffffff;
+
+}
+
+.l:hover{
+	top:-23%;
+	left: 10%;
+	color:black;
+}
+
+.lt{
+	position: absolute;
+	top: 20%;
+	font-family: Old English Text MT;
+	color: white;
+	font-size: 700%;
+	right:  157%;
+}
+
+.c1:active .lt{
+	color: black;
+}
+
+.c1:active .l{
+	color: black;
+}
+
+.im{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	top: 40%;
+	left: -127%;
+	border-style:solid;
+	border-size: 20px;
+	border-color: white;
+	border-radius: 100%;
+	box-shadow: 20%;
+	box-shadow-color: #00FFC5;
+}
+
+.text{
+	width: 100%;
+	position: absolute;
+	top: 42%;
+	font-family: lll;
+	color: white;
+	font-size: 380%;
+	right:  90%;
+}
+
+.c1:active .text{
+	color: black;
+}
+
+.s{
+	position: absolute;
+	width: 20%;
+	height: 25%;
+	right: 1%;
+	top: 76%;
+}

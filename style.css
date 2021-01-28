@@ -1,0 +1,87 @@
+body{
+	background-color: #000000;
+}
+
+
+.c1{
+	background-image: url(fondof.png);
+	position: absolute;
+	background-position: top;
+	background-size: cover;
+	background-position: center;
+	top:0%;
+	right: 0%;
+	margin: 0px;
+	width: 43%;
+	height: 100%;
+	border: 1px;
+	margin-right: 0%;
+}
+
+.c2{
+	background-color: #000000;
+	position: absolute;
+	width: 140%;
+	height: 100%;
+	right: 100%;
+}
+
+.c1:active .c2{
+	background-color: #ffffff;
+	position: absolute;
+	width: 140%;
+	height: 100%;
+	right: 100%;
+	transition: 2s;
+	display: block;
+}
+
+.c3{
+	background-image: url(fondo.jpg);
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	top:0%;
+	right: 0%;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	border: 1px;
+	margin-right: 0%;
+	display: none;
+	transition-duration: 2s;
+
+}
+
+.c1:active .c3{
+	display: block;
+	transition: 5s;
+}
+
+.c4{
+	background-color: #000000;
+	position: absolute;
+	top: 75%;
+	right: 80%;
+	width: 30%;
+	height: 16%;
+}
+
+.c1:active .c4{
+	background-color: #ffffff;
+	transition: 2s;
+}
+
+.c5{
+	background-color: #ffffff;
+	position: absolute;
+	top: 75%;
+	right: 100%;
+	width: 30%;
+	height: 16%;
+}
+
+.c1:active .c5{
+	background-color: #000000;
+	transition: 2s;
+}
